@@ -9,19 +9,7 @@ void mainMenu(int &i){
 	    cout<<"3. Exit"<<endl;
 	    cout<<"Choice: ";
 	    cin>>i;
-	    switch(i){
-    		case 1:
-    			Create();
-   			break;
-   			case 2:
-    			Login();
-   			break;
-   			case 3:
-    			cout<<"good buy\n\n";
-   			break;
-   			default:
-   			cout<<"unknoun choices !\n";
-    	}
+	
 }
 void accountMenu(int &i){
 
@@ -33,23 +21,5 @@ void accountMenu(int &i){
 	    cout<<"5. Logout"<<endl;
 	    cout<<"Choice: ";
 	    cin>>i;
-	    	    switch(i){
-    		case 1:
-    			Deposit();
-   			break;
-   			case 2:
-    			Withdraw();
-   			break;
-   			case 3:
-    			Transfer();
-   			break;
- 			case 4:
-    			Show();
-   			break;
-   			case 5:
-    			cout<<"Thanks for using our applaction\n";
-   			break;
-   			default:
-   			cout<<"unknoun choices !\n";
-    	}
+
 }

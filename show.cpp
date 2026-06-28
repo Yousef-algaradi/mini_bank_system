@@ -78,6 +78,9 @@ void show()
 	   		cout <<"could not open statement.txt file"<<endl;
 	   		return;
 	   	}
+	   		
+			   	cout<<" operation  | amount | balance | datetime "<<endl; // Úäæä áßÔÝ ÇáÍÓÇÈ
+			   	
 	   	while(getline(statementfile,sid,'|')&&getline(statementfile,operation,'|')&&
 		   	getline(statementfile,samount,'|')&&getline(statementfile,sbalance,'|')&&getline(statementfile,datetime)){
 		   		
@@ -90,7 +93,7 @@ void show()
 				    
 	   		if (id==uid)
 	   		{
-		   		cout<<" operation  | amount | balance | datetime "<<endl;
+   	
 		   		cout<<  operation  <<"|"<< amount <<"|"<< balance <<"|"<< datetime <<endl;
 		   		
 		   	}
